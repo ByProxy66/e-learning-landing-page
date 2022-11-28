@@ -167,6 +167,7 @@ footer .footer__container {
        column-gap: 1.5rem;
   row-gap: 3rem;
   grid-template-columns: 1fr;
+  margin-bottom: 3rem;
 }
 
 .cta__secondary {
