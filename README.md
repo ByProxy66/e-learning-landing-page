@@ -46,13 +46,8 @@ I chose to use sass, since I thought I knew it from work. What I didn't know was
 
 ### What I learned
 
-Well. I learned I'm total fool. And then when nesting something in one media query you better damn well use the same nesting in the next or you will spend 3 hours looking for a stupid error.
+Well. I learned I'm a total fool. And then when nesting something in one media query you better damn well use the same nesting in the next or you will spend 3 hours looking for a stupid error.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>none of it</h1>
-```
 ```css
 :root {
     // Gradient variables first time using sass variables and css variables. Worked pretty good. Be gentle
@@ -67,8 +62,6 @@ To see how you can add code snippets, see below:
 ### Continued development
 
 I'm diving deeper into grid and I hate to say this: My approach and my process.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
