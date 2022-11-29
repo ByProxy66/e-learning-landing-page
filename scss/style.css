@@ -164,8 +164,7 @@ footer .footer__container {
 .grid-container-cards {
   display: grid;
   justify-content: center;
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
+  gap: 1.5rem;
   row-gap: 3rem;
   grid-template-columns: 1fr;
   margin-bottom: 3rem;
@@ -199,14 +198,16 @@ footer .footer__container {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1274px) {
-  main,
-.footer__container {
+  main {
     width: 100%;
     max-width: 1274px;
   }
   nav,
 section {
     padding: 1.5rem;
+  }
+  footer .footer__container {
+    width: 70%;
   }
   .grid-container-hero {
     min-height: 60vh;
@@ -224,7 +225,7 @@ section {
   }
   .cta__primary {
     grid-column-start: 1;
-    place-content: justify-center;
+    place-content: center;
   }
   .grid-container-cards {
     grid-template-columns: repeat(auto-fill, 22.875rem);
@@ -234,10 +235,13 @@ section {
   }
 }
 @media screen and (min-width: 1275px) {
-  main,
-.footer__container {
+  main {
     max-width: 1275px;
     width: 100%;
+  }
+  footer .footer__container {
+    width: 70%;
+    max-width: 1275px;
   }
   .grid-container-hero {
     min-height: 80vh;
@@ -247,8 +251,8 @@ section {
   }
   .grid-container-hero .hero_image {
     position: relative;
-    top: -11rem;
-    right: -5rem;
+    top: -15rem;
+    right: -2rem;
   }
   .grid-container-hero .hero_image img {
     width: 1093px;
