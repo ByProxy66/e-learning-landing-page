@@ -183,7 +183,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     min-height: 50vh;
-
+justify-content: center;
     .hero_image {
         margin: auto;
         img {
@@ -256,12 +256,12 @@ footer {
     .grid-container-hero {
         min-height: 60vh;
         height: 60vh;
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 60vh;
         .hero_image {
             position: relative;
-            top: -12rem;
-            right: -6rem;
+            top: -10rem;
+            right: -2rem;
            img {
             width:695px;
         }
@@ -299,8 +299,9 @@ footer {
     .grid-container-hero {
         min-height: 80vh;
         height: 70vh;
-        grid-template-columns: repeat(auto-fill, 500px);
+        grid-template-columns: repeat(auto-fill, 550px);
         grid-template-rows: 70vh;
+
         .hero_image {
             position: relative;
             top: -11rem;

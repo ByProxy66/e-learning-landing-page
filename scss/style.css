@@ -145,6 +145,7 @@ footer .footer__container {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   min-height: 50vh;
+  justify-content: center;
 }
 .grid-container-hero .hero_image {
   margin: auto;
@@ -208,13 +209,13 @@ footer .footer__container {
   .grid-container-hero {
     min-height: 60vh;
     height: 60vh;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 60vh;
   }
   .grid-container-hero .hero_image {
     position: relative;
-    top: -12rem;
-    right: -6rem;
+    top: -10rem;
+    right: -2rem;
   }
   .grid-container-hero .hero_image img {
     width: 695px;
@@ -238,7 +239,7 @@ footer .footer__container {
   .grid-container-hero {
     min-height: 80vh;
     height: 70vh;
-    grid-template-columns: repeat(auto-fill, 500px);
+    grid-template-columns: repeat(auto-fill, 550px);
     grid-template-rows: 70vh;
   }
   .grid-container-hero .hero_image {
