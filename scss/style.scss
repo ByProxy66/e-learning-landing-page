@@ -165,13 +165,14 @@ footer {
     background-color: #13183F;
     position: relative;
     z-index: 1020;
-    height: 4.375rem;
+    height: 6rem;
     .footer__container {
        
         display: flex;
         justify-content: space-between;
         align-items: center;
        width:100%;
+      
        padding: .5rem;
     }
        

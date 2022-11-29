@@ -130,7 +130,7 @@ footer {
   background-color: #13183F;
   position: relative;
   z-index: 1020;
-  height: 4.375rem;
+  height: 6rem;
 }
 footer .footer__container {
   display: flex;
