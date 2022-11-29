@@ -199,11 +199,13 @@ footer .footer__container {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1274px) {
-  main, .footer__container {
+  main,
+.footer__container {
     width: 100%;
     max-width: 1274px;
   }
-  nav, section {
+  nav,
+section {
     padding: 1.5rem;
   }
   .grid-container-hero {
@@ -232,7 +234,8 @@ footer .footer__container {
   }
 }
 @media screen and (min-width: 1275px) {
-  main, .footer__container {
+  main,
+.footer__container {
     max-width: 1275px;
     width: 100%;
   }
