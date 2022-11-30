@@ -102,6 +102,13 @@ body {
   background: linear-gradient(0deg, rgb(240, 241, 255) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
+.container-wrapper {
+  overflow: hidden;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -109,8 +116,7 @@ nav {
   align-items: center;
   position: relative;
   z-index: 1020;
-  height: 4.375rem;
-  padding: 0.5rem;
+  height: 6rem;
 }
 
 main {
@@ -137,7 +143,12 @@ footer .footer__container {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0.5rem;
+  padding: 1.5rem;
+}
+
+section, nav, .footer__container {
+  max-width: 1275px;
+  margin: auto;
 }
 
 .grid-container-hero {
@@ -145,7 +156,6 @@ footer .footer__container {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   min-height: 50vh;
-  justify-content: center;
 }
 .grid-container-hero .hero_image {
   margin: auto;
@@ -163,7 +173,6 @@ footer .footer__container {
 
 .grid-container-cards {
   display: grid;
-  justify-content: center;
   gap: 1.5rem;
   row-gap: 3rem;
   grid-template-columns: 1fr;
@@ -200,14 +209,10 @@ footer .footer__container {
 @media screen and (min-width: 768px) and (max-width: 1274px) {
   main {
     width: 100%;
-    max-width: 1274px;
   }
   nav,
-section {
+section, .footer__container {
     padding: 1.5rem;
-  }
-  footer .footer__container {
-    width: 70%;
   }
   .grid-container-hero {
     min-height: 60vh;
@@ -228,7 +233,7 @@ section {
     place-content: center;
   }
   .grid-container-cards {
-    grid-template-columns: repeat(auto-fill, 22.875rem);
+    grid-template-columns: repeat(2, 1fr);
   }
   .grid-container-cards .grid-item {
     padding: 1rem;
@@ -236,12 +241,7 @@ section {
 }
 @media screen and (min-width: 1275px) {
   main {
-    max-width: 1275px;
     width: 100%;
-  }
-  footer .footer__container {
-    width: 70%;
-    max-width: 1275px;
   }
   .grid-container-hero {
     min-height: 80vh;
@@ -267,6 +267,6 @@ section {
   }
   .grid-container-cards {
     grid-template-rows: 322px;
-    grid-template-columns: repeat(auto-fill, 350px);
+    grid-template-columns: repeat(3, 1fr);
   }
 }/*# sourceMappingURL=style.css.map */
