@@ -211,7 +211,7 @@ section, nav, .footer__container {
     width: 100%;
   }
   nav,
-section, .footer__container {
+  section, .footer__container {
     padding: 1.5rem;
   }
   .grid-container-hero {
